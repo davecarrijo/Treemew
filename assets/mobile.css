@@ -1,11 +1,7 @@
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
   @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
 
-  body {
-    background: #414141; /* fallback for old browsers */
-  }
   .main_container {
-    background-color: #090a0a;
     width: 20rem;
     height: 45rem;
     display: flexbox;
@@ -29,7 +25,7 @@
   }
   .tittle_main {
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     font-family: "Montserrat", sans-serif;
     top: 90px;
     position: relative;
