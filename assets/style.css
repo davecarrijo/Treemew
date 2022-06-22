@@ -90,3 +90,7 @@ a {
 .mailton:hover {
   color: rgb(103, 4, 231);
 }
+
+#qrcoder {
+  width: 4rem;
+}
