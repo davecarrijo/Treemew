@@ -1,0 +1,86 @@
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+
+  body {
+    background: #414141; /* fallback for old browsers */
+  }
+  .main_container {
+    background-color: #090a0a;
+    width: 20rem;
+    height: 45rem;
+    display: flexbox;
+    margin: 0 auto;
+    color: white;
+    border-radius: 10px;
+    margin-top: 3rem;
+  }
+  .img_container {
+    display: flex;
+    justify-content: center;
+  }
+  .main_img {
+    position: absolute;
+    height: 8rem;
+    width: 8rem;
+    top: 1rem;
+    border-radius: 100px;
+    /* border: 2px solid white; */
+    margin: 0 auto;
+  }
+  .tittle_main {
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: "Montserrat", sans-serif;
+    top: 90px;
+    position: relative;
+  }
+  .subtitle {
+    color: rgb(59, 59, 59);
+  }
+  .second_container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sub_container {
+    background-color: #2b2e30;
+    height: 3rem;
+    width: 15rem;
+    margin: 0.3rem;
+    border-radius: 5px;
+  }
+  .sub_container:hover {
+    background-color: #252636;
+  }
+  .third_container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 15rem;
+    align-items: center;
+  }
+  .tsub_container {
+    background-color: #2b2e30;
+    height: 3rem;
+    width: 7rem;
+    margin-top: 0.3rem;
+    border-radius: 5px;
+  }
+  .tsub_container:hover {
+    background-color: #252636;
+  }
+
+  .forth_container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 15rem;
+    align-items: center;
+  }
+  a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1rem;
+  }
+}
