@@ -93,5 +93,6 @@ a {
 
 #qrcoder {
   width: 4rem;
-  top: 30px;
+  top: 20px;
+  color: black;
 }
