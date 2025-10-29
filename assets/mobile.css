@@ -3,7 +3,7 @@
 
   .main_container {
     width: 20rem;
-    height: 45rem;
+    height: 15rem;
     display: flexbox;
     margin: 0 auto;
     color: white;
@@ -32,7 +32,7 @@
     position: relative;
   }
   .subtitle {
-    color: rgb(59, 59, 59);
+    color: white;
   }
   .second_container {
     margin: 0 auto;
