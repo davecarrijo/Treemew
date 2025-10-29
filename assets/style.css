@@ -30,11 +30,11 @@ body {
   text-align: center;
   font-size: 1.1rem;
   font-family: "Montserrat", sans-serif;
-  top: 90px;
+  top: 100px;
   position: relative;
 }
 .subtitle {
-  color: rgb(59, 59, 59);
+  color: rgb(222 222 222);
 }
 .second_container {
   margin: 0 auto;
