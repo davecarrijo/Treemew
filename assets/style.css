@@ -1,12 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 
 body {
- /* background: #1f1e1e;  fallback for old browsers */
+  /* background: #1f1e1e;  fallback for old browsers */
 }
 .main_container {
   background-color: #090a0a;
   width: 35rem;
-  height: 20rem;
+  height: auto;
   display: flexbox;
   margin: 0 auto;
   color: white;
@@ -19,18 +19,18 @@ body {
 }
 .main_img {
   position: absolute;
-  height: 8rem;
-  width: 8rem;
-  top: 1rem;
+  height: 7rem;
+  /* width: 8rem; */
+  top: 0rem;
   border-radius: 100px;
-  /* border: 2px solid white; */
+  border: 2px solid white;
   margin: 0 auto;
 }
 .tittle_main {
   text-align: center;
   font-size: 1.1rem;
-  font-family: "Montserrat", sans-serif;
-  top: 100px;
+  font-family: 'Montserrat', sans-serif;
+  top: 5rem;
   position: relative;
 }
 .subtitle {
@@ -46,7 +46,7 @@ body {
   background-color: #2b2e30;
   height: 3rem;
   width: 30rem;
-  margin: 0.3rem;
+  margin: 0.5rem;
   border-radius: 5px;
 }
 .sub_container:hover {
@@ -83,7 +83,7 @@ a {
   font-size: 1rem;
 }
 .mailton {
-  color: rgb(147, 132, 207);
+  color: rgb(215, 210, 236);
   text-decoration: none;
   font-size: 1rem;
 }
@@ -92,7 +92,6 @@ a {
 }
 
 #qrcoder {
-  width: 4rem;
-  top: 20px;
+  width: 5rem;
   color: black;
 }

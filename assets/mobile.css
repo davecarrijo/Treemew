@@ -1,9 +1,9 @@
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
-  @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 
   .main_container {
     width: 20rem;
-    height: 20rem;
+    height: 0 auto;
     display: flexbox;
     margin: 0 auto;
     color: white;
@@ -26,7 +26,7 @@
   .tittle_main {
     text-align: center;
     font-size: 0.9rem;
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     top: 90px;
     margin: 2rem;
     position: relative;
@@ -87,5 +87,10 @@
   }
   .mailton:hover {
     color: rgb(103, 4, 231);
+  }
+
+  #qrcoder {
+    width: 5rem;
+    color: black;
   }
 }
